@@ -5,6 +5,7 @@ namespace fs = boost::filesystem;
 using namespace std;
 
 
+
 EncryptedArchive::EncryptedArchive() : path_to_archive("NULL")
 {}
 
