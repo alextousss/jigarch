@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
     }
     else if( !strcmp( argv[1], "-decrypt") )
     {
-      cout << "Quelle est la passphrase souhaitée pour chiffrer les données ?\n";
+      cout << "Quelle est la passphrase souhaitée pour dechiffrer les données ?\n";
       cout << "Entrez une passphrase : ";
       string password;
       getline (cin,password);

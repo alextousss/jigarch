@@ -13,7 +13,6 @@ all: $(EXEC)
 
 jigarch: $(OBJ)
 	$(CC) -o $@ $^ $(LDFLAGS)
-	cp $(EXEC) testenv
 
 
 $(ODIR)/%.o: $(SRCDIR)/%.cpp
