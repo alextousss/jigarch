@@ -1,7 +1,7 @@
 CC=g++
 CFLAGS= -Wall -ansi -pedantic   -c -std=c++11 -pthread -lpthread -lboost_filesystem -lboost_system -g3 -O0
 LDFLAGS= -Wall -ansi -pedantic  -std=c++11 -pthread -lpthread -lboost_filesystem -lboost_system -g3 -O0
-EXEC=usbcrypt
+EXEC=jigarch
 SRCDIR=src
 ODIR=obj
 INCLUDEDIR=include
@@ -11,7 +11,7 @@ OBJ= $(subst $(SRCDIR),$(ODIR),$(SRC:.cpp=.o))
 
 all: $(EXEC)
 
-usbcrypt: $(OBJ)
+jigarch: $(OBJ)
 	$(CC) -o $@ $^ $(LDFLAGS)
 	cp $(EXEC) testenv
 
@@ -26,4 +26,4 @@ clean:
 mrproper: clean
 	rm -rf $(EXEC)
 
-rebuild: mrproper usbcrypt
+rebuild: mrproper jigarch
