@@ -17,4 +17,4 @@ It's an easy way to make sure that *non-sensitive* data on a USB key will be *ha
 
 
 
-(1) *It will surely block average people, but anyone who can write some code to bruteforce the encryption will get the passphrase quickly, just look at the encryption algorithm and you will quickly get why. It's made to be simple.*
+(1) *It will surely block average people, but anyone who can write some code to bruteforce the encryption will get the passphrase quickly, just look at the encryption algorithm and you will quickly get why. It's made to be simple, not secure.*
